@@ -8,7 +8,7 @@ const WeatherTimeApp = () => {
   const [weatherData, setWeatherData] = useState(null);
   const API_KEY = "d7e8bb302f9e49238da214137253001"; // Clave de WeatherAPI
 
-  // Función para manejar cambios en el input
+  // Función para manejar cambios en el inpu
   const handleInputChange = (event) => {
     setCity(event.target.value);
   };
